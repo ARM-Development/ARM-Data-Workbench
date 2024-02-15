@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ARM Data Workbench",
   description: "Documentation page for ARM Data Workbench",
-  base: '/adw/docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
