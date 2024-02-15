@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ARM Data Workbench",
   description: "Documentation page for ARM Data Workbench",
+  base: '/ARM-Data-Workbench/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -12,12 +13,12 @@ export default defineConfig({
     ],
 
     sidebar: [
-      // {
-      //   text: 'Getting Started',
-      //   items: [
-      //     { text: 'Requirements', link: '/get-started' }
-      //   ]
-      // },
+      {
+        text: 'Getting Started',
+        items: [
+          { text: 'Requirements', link: '/get-started' }
+        ]
+      },
       {
         text: 'Architecture',
         items: [
