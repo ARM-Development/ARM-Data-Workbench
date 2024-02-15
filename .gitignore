@@ -68,8 +68,12 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
+# Node modules
+node_modules/
+
+# VitePress documentation
+docs/.vitepress/dist
+docs/.vitepress/cache
 
 # PyBuilder
 .pybuilder/
